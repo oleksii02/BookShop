@@ -1,0 +1,15 @@
+.book {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.book_column {
+  &:first-child {
+    display: flex;
+  }
+}
+
+button {
+  width: 60px;
+}

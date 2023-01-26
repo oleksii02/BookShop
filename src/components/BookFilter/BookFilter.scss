@@ -1,0 +1,15 @@
+.book_filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  img {
+    width: 16px;
+    height: 16px;
+  }
+
+  &_title {
+    display: flex;
+    align-items: center;
+  }
+}
