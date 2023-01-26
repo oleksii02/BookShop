@@ -13,3 +13,10 @@
 button {
   width: 60px;
 }
+
+@media screen and (max-width: 576px){
+  button {
+    width: 58px;
+  }
+
+}

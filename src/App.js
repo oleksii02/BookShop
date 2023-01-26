@@ -60,7 +60,7 @@ function App() {
     const totalPrice = (book) => {
         //totalOrders.push(book)
         setOrderPrice(ordersPrice + book.price)
-        ordersBasket.push({name: book.name, number: 1, price: book.price})
+        ordersBasket.push({name: book.name, price: book.price})
     }
 
     const dellBook = (book) => {

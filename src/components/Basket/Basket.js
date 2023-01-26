@@ -7,9 +7,6 @@ const Basket = ({book, dellBook}) => {
             <div className='book_number'>
                 {book.name}&nbsp;
             </div>
-            <div className='book_name'>
-                {book.number}
-            </div>
         </div>
         <div className='book_column'>
             <div className='book_price'>
